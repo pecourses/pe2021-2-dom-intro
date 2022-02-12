@@ -76,7 +76,7 @@ pHover.addEventListener('mouseleave', function () {
 /***** классы ************************************************/
 
 // доступ к атирбуту class через св-во className
-console.log('pHover.className :>> ', pHover.className);
+console.log('pHover.className :>> ', pHover.className); // 'class1 class2'
 
 pHover.classList.add('green-text');
 
